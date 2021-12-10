@@ -1,0 +1,49 @@
+
+.name1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 300px;
+  grid-template-areas:
+    ". a a ."
+    ". a a .";
+}
+.name1{
+        grid-area: a;
+        align-self: center;
+        justify-self: center;
+}
+.home{
+    font-weight: bold;
+    font-size: 20px;
+}
+.about{
+    font-weight: bold;
+    font-size: 20px;
+}
+.skills{
+    font-weight: bold;
+    font-size: 20px;
+}
+.works{
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact{
+    font-weight: bold;
+    font-size: 20px;
+}
+.header{
+    display: grid;
+    grid-template-columns:  4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: 110%;
+}

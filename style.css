@@ -1,11 +1,13 @@
 
 .name1{
+    color: white;
     font-weight: bold;
     text-align: center;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .text{
+    color: white;
     display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
@@ -20,22 +22,27 @@
         justify-self: center;
 }
 .home{
+    color: white;
     font-weight: bold;
     font-size: 20px;
 }
 .about{
+    color: white;
     font-weight: bold;
     font-size: 20px;
 }
 .skills{
+    color: white;
     font-weight: bold;
     font-size: 20px;
 }
 .works{
+    color: white;
     font-weight: bold;
     font-size: 20px;
 }
 .contact{
+    color: white;
     font-weight: bold;
     font-size: 20px;
 }
@@ -45,5 +52,23 @@
 }
 body{
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: 1000%;
+}
+.aboutme{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    margin: center;
+}
+.textaboutme{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
 }

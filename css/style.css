@@ -76,3 +76,11 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif; 
     margin-top: 200px;
 }
+.textmyskills{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-top: 200px;  
+}

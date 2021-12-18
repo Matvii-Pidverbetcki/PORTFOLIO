@@ -164,3 +164,64 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif; 
     margin-top: 350px;   
 }
+.contact-center{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 150px 400px;
+    column-gap: 170px;
+    row-gap: 30px;
+    padding-bottom: 80px;
+}
+.lines-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.send{
+    width: 120px;
+    height: 30px;
+    border: 2px solid #795548;
+    border-radius: 0.25rem;
+    background: none;
+    color: #795548;
+    margin-top: 15px;
+}
+.send:hover{
+    background: #795548;
+    color: white;
+}
+.input-name{
+    background-color: #44475a;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.input-email{
+    background-color: #44475a;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.input-text{
+    height: 100px;
+    background-color: #44475a;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    margin-top: 15px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+textarea{
+     overflow: auto;
+    resize: vertical;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}

@@ -48,9 +48,11 @@
 }
 .header{
     position: fixed;
-    text-align: center;
     display: grid;
-    grid-template-columns:  4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    background-color:whitesmoke;
+    opacity: 0.6;
+    width:1420px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 body{
     background-repeat: no-repeat;

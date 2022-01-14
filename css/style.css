@@ -18,19 +18,19 @@
     ". a a .";
 }
 .name1{
-        grid-area: a;
-        align-self: center;
-        justify-self: center;
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
 }
 .home{
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 20px;    
 }
 .about{
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 20px;   
 }
 .skills{
     color: white;
@@ -143,10 +143,8 @@ body{
     margin-top: 200px;  
 }
 .works_foto1:hover{
-    transition: 2s;
-    transform: scale(2);
-    width: 200px;
-    height: 200px;
+    transition: 1s;
+    transform: scale(1.2);
 }
 .works_foto2{
     width: 500px;
@@ -155,10 +153,8 @@ body{
     margin-top: 200px;
 }
 .works_foto2:hover{
-    transition: 2s;
-    transform: scale(2);
-    width: 620px;
-    height: 200px;
+    transition: 1s;
+    transform: scale(1.2);
 }
 .works_foto3{
     width: 500px;
@@ -167,10 +163,8 @@ body{
     margin-top: 100px;
 }
 .works_foto3:hover{
-    transition: 2s;
-    transform: scale(2);
-    width: 200px;
-    height: 200px;
+    transition: 1s;
+    transform: scale(1.2);
 }
 .works_foto4{
     width: 500px;
@@ -179,11 +173,9 @@ body{
     margin-top: 100px;
 }
 .works_foto4:hover{
-        transition: 2s;
-        transform: scale(2);
-        width: 200px;
-        height: 100px;
-}
+    transition: 1s;
+    transform: scale(1.2);
+} 
 .contactss{
     color: white;
     font-weight: bold;
